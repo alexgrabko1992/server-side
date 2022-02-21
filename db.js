@@ -7,7 +7,7 @@ module.exports = new Sequelize(
   "efac5a66eb348cade26cc55ffee1ad921fb85b033313232b8fb7cf3d6ba8b6fd",
   {
     dialect: "postgres",
-    port: "5432",
+    port: 5432,
     host: "ec2-44-195-186-235.compute-1.amazonaws.com",
   }
 );
