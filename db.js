@@ -2,13 +2,13 @@ const { Sequelize } = require("sequelize");
 require("dotenv").config();
 
 module.exports = new Sequelize(
-  "d1vsiend75nbk9",
-  "vtarwogxsdozlb",
-  "31adbc5aa4ca612cd81e2a245b9cd95321b7fa19996df81fdc5fb2ac9137db9c",
+  "d9mre3c2e9qefj",
+  "csuerzkmpnetfp",
+  "efac5a66eb348cade26cc55ffee1ad921fb85b033313232b8fb7cf3d6ba8b6fd",
   {
     dialect: "postgres",
     port: "5432",
-    host: "ec2-44-199-49-128.compute-1.amazonaws.com",
+    host: "ec2-44-195-186-235.compute-1.amazonaws.com",
   }
 );
 
